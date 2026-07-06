@@ -7,7 +7,7 @@ const Counter = ( ) => {
         <div>
            <h2>Counter in Counter Component: {count}</h2> 
             <button onClick={() => dispatch({ type: 'INCREMENT' })}>Increment</button>
-            <button onClick={() => dispatch({ type: 'DECREMENT' })}>Decrement</button>  
+            <button onClick={() => dispatch({ type: 'DECREMENT' })}>Decrement</button>    
         </div>
     );
 };
